@@ -24,3 +24,7 @@ print(listaFinal);
 }
 
 
+var lista = List.of({1, 4, 9, 16, 25, 36, 49, 64, 81, 100});
+var listapar = lista.where((number) => number.isEven);
+print(listapar);
+
